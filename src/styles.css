@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap');
+
+:root {
+    --bg-dark: #050b14;
+    --panel-bg: rgba(16, 26, 41, 0.7);
+    --neon-blue: #00f3ff;
+    --neon-green: #0aff60;
+    --neon-orange: #ff9e00;
+    --text-main: #e0f7fa;
+    --text-muted: #5c7c99;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--bg-dark);
+    font-family: 'Exo 2', sans-serif;
+    color: var(--text-main);
+    overflow: hidden;
+}
