@@ -19,7 +19,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   // --- ⚠️ IMPORTANTE: CAMBIA ESTO POR LA URL QUE TE DE RENDER ---
   // Ejemplo: 'https://orbit-backend-xis2.onrender.com'
   // Si estás probando en local, usa 'http://localhost:3001'
-  private apiUrl = 'https://TU-URL-DE-RENDER-AQUI.onrender.com'; 
+  private apiUrl = 'https://orbit-lct5.onrender.com'; 
 
   shipments: any[] = [];
   selectedShipment: any = null;
